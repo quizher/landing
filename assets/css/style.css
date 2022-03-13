@@ -113,6 +113,7 @@ ul li a:hover {
 
 .website img {
     width: 48%;
+    height: 100%;
 }
 
 .website .contenedor-textos-main {
@@ -124,4 +125,36 @@ ul li a:hover {
     margin-bottom: 20px;
     color: #fff;
 
+}
+
+
+.input {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 20px 10px;
+}
+
+.input::placeholder {
+    color: #fff;
+    font-family: 'raleway', 'sans-serif';
+}
+
+
+input[type="email"] {
+    display: inline-block;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding: 14px 0;
+    background: #fad0c4;
+    border-radius: 15px;
+    color: #000;
 }
